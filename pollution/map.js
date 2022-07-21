@@ -6,7 +6,6 @@ ymaps.ready(function () {
             searchControlProvider: 'yandex#search'
         })
         myMap.behaviors.disable('scrollZoom');
-        myMap.behaviors.disable('drag');
 
 
         // Создаём макет содержимого.
